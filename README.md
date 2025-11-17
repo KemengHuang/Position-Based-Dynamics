@@ -62,7 +62,7 @@ Follow these steps to build and run:
 
 ```bash
 # Install dependencies
-sudo apt install libglew-dev freeglut3-dev libeigen3-dev
+vcpkg install eigen3 freeglut glew
 
 # Create and enter build directory
 mkdir build
